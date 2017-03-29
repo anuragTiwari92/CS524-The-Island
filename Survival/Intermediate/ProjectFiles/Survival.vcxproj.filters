@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Survival.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7C456C2C-7834-496C-8271-D1E48F3EE8C6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Survival.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SurvivalEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D9FBA2A0-2732-42D8-9741-8E5F2DA7B515}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Survival">
+      <UniqueIdentifier>{38D35C56-0F6B-465C-9B9D-7B81A02988B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Survival\Survival.Build.cs">
+      <Filter>Source\Survival</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Survival\Survival.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Survival\Survival.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Survival\SurvivalGameMode.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Survival\SurvivalGameMode.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Survival\PatrolRoute.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\Item.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\UsableItem.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\UsableActor.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\BaseAIController.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\DefensePoint.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\AIBehaviorState.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\BasePlayerController.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\BaseCharacter.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\BTTask_FindNextPatrolPoint.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\BT_CanSee.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\AIBehaviorState_Idle.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\AIBehaviorState_Patrol.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\AIBehaviorState_Search.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\AIBehaviorState_FollowTarget.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\NPCCharacter.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\TeamMember.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\TeamInfo.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\Weapon.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\GameObjective.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\NPCAIController.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Survival\BTTask_FindItem.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Survival\PatrolRoute.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\Item.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\UsableItem.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\UsableActor.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\BaseAIController.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\DefensePoint.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\AIBehaviorState.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\BasePlayerController.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\BaseCharacter.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\BTTask_FindNextPatrolPoint.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\BT_CanSee.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\AIBehaviorState_Idle.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\AIBehaviorState_Patrol.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\AIBehaviorState_Search.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\AIBehaviorState_FollowTarget.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\NPCCharacter.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\TeamMember.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\TeamInfo.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\Weapon.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\GameObjective.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\NPCAIController.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Survival\BTTask_FindItem.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
