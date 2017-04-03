@@ -1,0 +1,803 @@
+﻿Log file open, 04/03/17 15:05:22
+LogInit:Display: Running engine for game: AIShooter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1232040461) SRandInit(-1232040461).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079209
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.03-22.05.22:977][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.03-22.05.22:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.03-22.05.23:012][  0]LogInit: Computer: ANURAGTIWARI
+[2017.04.03-22.05.23:012][  0]LogInit: User: Anurag
+[2017.04.03-22.05.23:012][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.03-22.05.23:012][  0]LogInit: High frequency timer resolution =2.533205 MHz
+[2017.04.03-22.05.23:013][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.04.03-22.05.23:013][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.03-22.05.23:013][  0]LogMemory: Process Physical Memory: 263.34 MB used, 263.34 MB peak
+[2017.04.03-22.05.23:013][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
+[2017.04.03-22.05.23:013][  0]LogMemory: Physical Memory: 7494.90 MB used,  8838.27 MB free, 16333.18 MB total
+[2017.04.03-22.05.23:013][  0]LogMemory: Virtual Memory: 630.96 MB used,  8838.27 MB free, 134217728.00 MB total
+[2017.04.03-22.05.23:368][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.03-22.05.24:039][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.03-22.05.24:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
+[2017.04.03-22.05.24:600][  0]LogD3D11RHI:       2016/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.03-22.05.24:602][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.03-22.05.24:602][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.03-22.05.24:602][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.03-22.05.24:606][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.03-22.05.24:606][  0]LogD3D11RHI:     GPU DeviceId: 0x13d9 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.03-22.05.24:606][  0]LogWindows: EnumDisplayDevices:
+[2017.04.03-22.05.24:607][  0]LogWindows:    0. 'NVIDIA GeForce GTX 965M' (P:1 D:1)
+[2017.04.03-22.05.24:607][  0]LogWindows:    1. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.04.03-22.05.24:607][  0]LogWindows:    2. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.04.03-22.05.24:607][  0]LogWindows:    3. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.04.03-22.05.24:607][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.03-22.05.24:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
+[2017.04.03-22.05.24:607][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.03-22.05.24:607][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.03-22.05.24:607][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.03-22.05.25:125][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.03-22.05.25:156][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.03-22.05.25:198][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/cs524/unreal/AIShooter/Intermediate/Shaders/WorkingDirectory/14036/).
+[2017.04.03-22.05.25:199][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Anurag/AppData/Local/Temp/UnrealShaderWorkingDir/7B711E2141429A8CD1E2D7AC62541CF5/'.
+[2017.04.03-22.05.25:199][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.03-22.05.26:885][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.03-22.05.26:944][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.03-22.05.27:003][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.03-22.05.27:063][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.03-22.05.27:124][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.03-22.05.27:184][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.03-22.05.27:244][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.03-22.05.27:304][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.03-22.05.27:354][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.03-22.05.27:414][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.03-22.05.27:472][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.03-22.05.27:532][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.03-22.05.27:595][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.03-22.05.27:654][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.03-22.05.27:715][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.03-22.05.27:837][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.03-22.05.27:837][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.03-22.05.27:882][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.03-22.05.27:992][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.03-22.05.28:030][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.03-22.05.28:088][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.03-22.05.28:146][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.03-22.05.28:204][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.03-22.05.28:264][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.03-22.05.28:264][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.03-22.05.28:926][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.03-22.05.28:979][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Anurag/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.03-22.05.28:979][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Anurag/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.03-22.05.28:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/cs524/unreal/AIShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.03-22.05.28:979][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.03-22.05.28:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/cs524/unreal/AIShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.03-22.05.28:979][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.03-22.05.29:000][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.03-22.05.29:013][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anurag/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.03-22.05.29:022][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.03-22.05.29:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.03-22.05.29:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.03-22.05.29:403][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.03-22.05.29:405][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.03-22.05.29:632][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.03-22.05.29:684][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.03-22.05.29:738][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.03-22.05.29:738][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.03-22.05.29:738][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.03-22.05.30:261][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: aishooter, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1405085539
+[2017.04.03-22.05.30:309][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2017.04.03-22.05.30:360][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022523 seconds
+[2017.04.03-22.05.30:365][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.03-22.05.30:365][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.03-22.05.30:365][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.03-22.05.30:443][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.03-22.05.33:256][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.03-22.05.33:300][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.03-22.05.33:816][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.03-22.05.34:227][  0]SourceControl: Info Source control is disabled
+[2017.04.03-22.05.34:228][  0]SourceControl: Info Source control is disabled
+[2017.04.03-22.05.34:280][  0]SourceControl: Info Source control is disabled
+[2017.04.03-22.05.34:332][  0]SourceControl: Info Source control is disabled
+[2017.04.03-22.05.35:733][  0]LogEngine: Initializing Engine...
+[2017.04.03-22.05.35:733][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.03-22.05.35:971][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.03-22.05.35:980][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-22.05.35:992][  0]LogInit: FAudioDevice initialized.
+[2017.04.03-22.05.36:016][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Anurag/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.03-22.05.36:021][  0]LogInit: Texture streaming: Enabled
+[2017.04.03-22.05.36:129][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.03-22.05.36:225][  0]LogInit: Transaction tracking system initialized
+[2017.04.03-22.05.36:613][  0]BlueprintLog: New page: Editor Load
+[2017.04.03-22.05.37:594][  0]LocalizationService: Info Localization service is disabled
+[2017.04.03-22.05.38:350][  0]LogConsoleResponse:Display: 
+[2017.04.03-22.05.38:477][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.03-22.05.38:477][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.03-22.05.38:671][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Content/' took 0.02s
+[2017.04.03-22.05.39:649][  0]SourceControl: Info Source control is disabled
+[2017.04.03-22.05.39:649][  0]Cmd: MAP LOAD FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.03-22.05.39:649][  0]LightingResults: New page: Lighting Build
+[2017.04.03-22.05.39:694][  0]MapCheck: New page: Map Check
+[2017.04.03-22.05.39:694][  0]LightingResults: New page: Lighting Build
+[2017.04.03-22.05.39:979][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.39:995][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:011][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:047][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:047][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:047][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:047][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:047][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:070][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:070][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:070][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:070][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:070][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:095][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:095][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:095][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:095][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:095][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:378][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:379][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:380][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:380][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:380][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:380][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:380][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:394][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:395][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:396][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:397][  0]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.40:468][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-22.05.40:493][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.03-22.05.40:493][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.03-22.05.40:541][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.788ms to complete.
+[2017.04.03-22.05.40:541][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.892
+[2017.04.03-22.05.40:653][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.03-22.05.40:787][  0]LogCollectionManager: Loaded 0 collections in 0.001574 seconds
+[2017.04.03-22.05.40:869][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Saved/Collections/' took 0.01s
+[2017.04.03-22.05.40:870][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Content/Developers/Anurag/Collections/' took 0.01s
+[2017.04.03-22.05.40:870][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Content/Collections/' took 0.01s
+[2017.04.03-22.05.40:870][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.03-22.05.40:878][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2245 classes and 453 folders.
+[2017.04.03-22.05.40:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.03-22.05.40:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.03-22.05.40:957][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.03-22.05.41:047][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.03-22.05.41:094][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.03-22.05.41:145][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.03-22.05.41:151][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.03-22.05.41:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.03-22.05.41:233][  0]LogLoad: (Engine Initialization) Total time: 20.61 seconds
+[2017.04.03-22.05.41:233][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.04.03-22.05.41:233][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.03-22.05.41:233][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.03-22.05.41:251][  0]LogOcInput: OculusInput pre-init called
+[2017.04.03-22.05.41:271][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.03-22.05.41:272][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.03-22.05.41:276][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.03-22.05.41:280][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.03-22.05.41:398][  0]LogContentBrowser:Verbose: The majority of assets in the view are of type: PhysicsAsset
+[2017.04.03-22.05.41:437][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.03-22.05.41:500][  1]LogAssetRegistry: Asset discovery search completed in 11.2127 seconds
+[2017.04.03-22.05.41:500][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.03-22.05.41:500][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.04.03-22.05.42:259][ 45]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-22.05.44:985][208]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.03-22.05.49:843][497]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_0.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.49:843][497]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_0.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.49:845][497]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:UserConstructionScript.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.49:845][497]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:UserConstructionScript.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.05.49:848][497]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-22.05.50:269][497]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.04.03-22.05.50:859][497]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.03-22.05.54:472][686]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.03-22.06.00:951][ 69]BlueprintLog: New page: Compile Mixamo_Heraklios
+[2017.04.03-22.06.00:953][ 69]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_1.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.06.00:953][ 69]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_1.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.06.00:954][ 69]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_2.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.06.00:954][ 69]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_2.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.06.00:970][ 69]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_3.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.06.00:970][ 69]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_3.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-22.06.02:301][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios" FILE="D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.uasset" SILENT=true
+[2017.04.03-22.06.02:358][129]LogSavePackage: Save=53.92ms
+[2017.04.03-22.06.02:358][129]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/Mixamo_Heraklios9D8D0767433FC1E5C5A4059C9C9D35F7.tmp' to 'D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.uasset'
+[2017.04.03-22.06.02:376][129]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.uasset
+[2017.04.03-22.06.04:339][247]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-22.06.04:352][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.06.04:352][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-22.06.04:352][247]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 8:06:04 AM)
+[2017.04.03-22.06.04:352][247]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-22.06.04:378][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025660s)
+[2017.04.03-22.06.04:379][247]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-22.06.04:379][247]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2017.04.03-22.06.04:379][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026927s)
+[2017.04.03-22.06.04:400][247]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-22.06.04:409][247]LogInit: FAudioDevice initialized.
+[2017.04.03-22.06.04:459][247]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-22.06.04:463][247]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-15.06.04
+[2017.04.03-22.06.04:464][247]LogWorld: Bringing up level for play took: 0.002918
+[2017.04.03-22.06.04:510][247]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.03-22.06.04:512][247]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.362
+[2017.04.03-22.06.04:512][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.06.10:788][621]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.06.11:305][652]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.06.12:788][741]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.06.13:305][772]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.06.13:522][785]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.06.14:322][833]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.06.14:788][861]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.06.15:272][890]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.06.15:305][892]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.06.16:839][984]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.06.17:305][ 12]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.06.17:772][ 40]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.06.22:939][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.06.22:973][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.06.24:250][416]LogSavePackage: Save=123.40ms
+[2017.04.03-22.06.24:250][416]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap2A47BB194E5B05D1AB6558B2CA058A42.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-22.06.24:251][416]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-22.06.24:270][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-22.06.24:435][416]LogSavePackage: Save=162.58ms
+[2017.04.03-22.06.24:435][416]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltDataE081D50A48AD67C3D0D9FBAC856D2C0D.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-22.06.24:436][416]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-22.06.46:689][747]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.03-22.06.52:099][ 66]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-22.07.16:380][498]LogSavePackage: Save=122.77ms
+[2017.04.03-22.07.16:380][498]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap5DBB5DFD415656ADCC0DEDAF25803469.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-22.07.16:381][498]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-22.07.16:400][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-22.07.16:512][498]LogSavePackage: Save=110.42ms
+[2017.04.03-22.07.16:512][498]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltDataD06ADC7F4BDC7F21A484CC832B2DB1F2.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-22.07.16:513][498]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-22.07.18:094][593]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-22.07.18:105][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.07.18:105][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-22.07.18:105][593]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 8:07:18 AM)
+[2017.04.03-22.07.18:105][593]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-22.07.18:125][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020067s)
+[2017.04.03-22.07.18:126][593]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-22.07.18:126][593]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2017.04.03-22.07.18:127][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021472s)
+[2017.04.03-22.07.18:147][593]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-22.07.18:156][593]LogInit: FAudioDevice initialized.
+[2017.04.03-22.07.18:185][593]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-22.07.18:188][593]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-15.07.18
+[2017.04.03-22.07.18:189][593]LogWorld: Bringing up level for play took: 0.002710
+[2017.04.03-22.07.18:192][593]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.683
+[2017.04.03-22.07.18:192][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.07.29:237][254]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.07.29:771][286]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.07.30:270][316]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.07.37:554][753]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.07.38:054][783]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.07.40:420][925]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.07.40:687][941]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.07.42:121][ 27]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.07.43:004][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.07.43:092][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.07.45:572][225]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-22.08.05:167][396]LogContentBrowser:Verbose: The majority of assets in the view are of type: Class
+[2017.04.03-22.08.07:230][517]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.03-22.08.35:877][197]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.03-22.08.35:999][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.03-22.08.36:036][197]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.04.03-22.08.36:171][198]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:10935).
+[2017.04.03-22.08.38:682][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.04.03-22.08.38:715][344]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.04.03-22.08.45:672][681]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-22.08.51:312][962]Cmd: TRANSACTION UNDO
+[2017.04.03-22.08.51:312][962]LogEditorTransaction: Undo Add Socket to Skeleton
+[2017.04.03-22.08.51:333][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.03-22.08.51:371][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.04.03-22.09.24:790][654]LogSavePackage: Save=1.66ms
+[2017.04.03-22.09.24:790][654]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/Mixamo_Heraklios_Skeleton074319794949A86F6E5716ADEAC084D0.tmp' to 'D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_Skeleton.uasset'
+[2017.04.03-22.09.24:791][654]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_Skeleton.uasset
+[2017.04.03-22.09.26:687][750]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.04.03-22.09.26:714][750]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.04.03-22.09.32:071][985]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.04.03-22.09.32:099][985]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.04.03-22.09.56:372][379]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_idle.Mixamo_Heraklios_idle
+[2017.04.03-22.09.56:623][379]LogSavePackage: Save=251.38ms
+[2017.04.03-22.09.56:623][379]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/Mixamo_Heraklios_idle08131A8D431F42F2565B0295D671F72B.tmp' to 'D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_idle.uasset'
+[2017.04.03-22.09.56:624][379]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_idle.uasset
+[2017.04.03-22.09.58:661][496]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.04.03-22.09.58:765][496]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.04.03-22.10.54:206][732]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-22.11.04:299][987]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios from MixamoCharacter_Master_C to CharacterBase_C...
+[2017.04.03-22.11.04:307][987]BlueprintLog: New page: Compile Mixamo_Heraklios
+[2017.04.03-22.11.04:310][987]LogBlueprint:Warning: ValidateTemplates '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'CameraBoom' from '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C'
+[2017.04.03-22.11.04:310][987]LogBlueprint:Warning: ValidateTemplates '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'FollowCamera' from '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C'
+[2017.04.03-22.11.04:392][987]LogProperty:Warning: Serialized BlueprintGeneratedClass /Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios_C for a property of BlueprintGeneratedClass /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C. Reference will be NULLed.
+    Property = ObjectProperty /Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios_C:ExecuteUbergraph_MixamoAnimBP_Heraklios.K2Node_DynamicCast_AsMixamo_Character_Master
+    Item = Mixamo_Heraklios_C /Engine/Transient.World_4:PersistentLevel.Mixamo_Heraklios_C_8
+[2017.04.03-22.11.04:392][987]LogProperty:Warning: Serialized BlueprintGeneratedClass /Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios_C for a property of BlueprintGeneratedClass /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C. Reference will be NULLed.
+    Property = ObjectProperty /Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios_C:ExecuteUbergraph_MixamoAnimBP_Heraklios.K2Node_DynamicCast_AsMixamo_Character_Master
+    Item = Mixamo_Heraklios_C /Engine/Transient.World_3:PersistentLevel.Mixamo_Heraklios_C_1
+[2017.04.03-22.11.06:751][118]BlueprintLog: New page: Compile Mixamo_Heraklios
+[2017.04.03-22.11.07:950][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios" FILE="D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.uasset" SILENT=true
+[2017.04.03-22.11.07:972][182]LogSavePackage: Save=19.53ms
+[2017.04.03-22.11.07:972][182]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/Mixamo_HerakliosEAA559394434D143F321159070B12334.tmp' to 'D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.uasset'
+[2017.04.03-22.11.07:973][182]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.uasset
+[2017.04.03-22.11.12:119][422]LogSavePackage: Save=122.56ms
+[2017.04.03-22.11.12:119][422]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap93AADA8C4C008CEA8CE4239455373155.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-22.11.12:121][422]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-22.11.12:139][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-22.11.12:297][422]LogSavePackage: Save=153.64ms
+[2017.04.03-22.11.12:297][422]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltDataF3A4EDEC451C89CD1451DE9E5695A7E8.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-22.11.12:298][422]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-22.11.13:078][469]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-22.11.13:090][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.11.13:090][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-22.11.13:090][469]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 8:11:13 AM)
+[2017.04.03-22.11.13:090][469]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-22.11.13:110][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019715s)
+[2017.04.03-22.11.13:111][469]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-22.11.13:111][469]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.04.03-22.11.13:111][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020894s)
+[2017.04.03-22.11.13:133][469]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-22.11.13:142][469]LogInit: FAudioDevice initialized.
+[2017.04.03-22.11.13:171][469]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-22.11.13:175][469]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-15.11.13
+[2017.04.03-22.11.13:175][469]LogWorld: Bringing up level for play took: 0.002971
+[2017.04.03-22.11.13:178][469]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.304
+[2017.04.03-22.11.13:178][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.11.18:524][788]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.11.20:208][889]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.11.20:524][908]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.11.21:125][944]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.11.21:559][970]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.11.22:092][  2]LogBlueprintUserMessages: [AIShooter_Character_2] Ouch!
+[2017.04.03-22.11.22:524][ 28]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-22.11.23:076][ 61]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.11.23:408][ 81]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.11.23:825][106]LogBlueprintUserMessages: [AIShooter_Character2] Ouch!
+[2017.04.03-22.11.24:492][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.11.24:583][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-22.11.25:914][213]LogSavePackage: Save=121.90ms
+[2017.04.03-22.11.25:914][213]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMapDD6E1A2645E720A4946B519A336EF0DE.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-22.11.25:916][213]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-22.11.25:934][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-22.11.26:048][213]LogSavePackage: Save=111.44ms
+[2017.04.03-22.11.26:048][213]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltDataC88AC40E44BFDEBE5B1646B71C8E3F35.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-22.11.26:049][213]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-22.11.41:398][996]LogSavePackage: Save=1.30ms
+[2017.04.03-22.11.41:398][996]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/Mixamo_Heraklios_Skeleton2467D1A04960A64C476B86A62AB05F28.tmp' to 'D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_Skeleton.uasset'
+[2017.04.03-22.11.41:399][996]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/MixamoAnimPack/Mixamo_Heraklios/Anims/Mixamo_Heraklios_Skeleton.uasset
+[2017.04.03-22.11.41:447][996]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.03-22.11.41:604][996]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.03-22.11.41:779][997]Cmd: QUIT_EDITOR
+[2017.04.03-22.11.42:211][997]LogExit: Preparing to exit.
+[2017.04.03-22.11.42:590][997]LogExit: Editor shut down
+[2017.04.03-22.11.42:590][997]LogExit: Transaction tracking system shut down
+[2017.04.03-22.11.42:681][997]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.03-22.11.42:681][997]LogExit: Object subsystem successfully closed.
+[2017.04.03-22.11.42:703][997]LogD3D11RHI: Shutdown
+[2017.04.03-22.11.42:703][997]LogD3D11RHI: CleanupD3DDevice
+[2017.04.03-22.11.42:806][997]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (512)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module AnimationEditor (510)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module SkeletonEditor (508)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (506)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.03-22.11.42:821][997]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.03-22.11.42:821][997]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.03-22.11.42:823][997]LogDirectoryWatcher: A directory notification for 'D:/cs524/unreal/AIShooter/Content/Collections/' was aborted.
+[2017.04.03-22.11.42:823][997]LogDirectoryWatcher: A directory notification for 'D:/cs524/unreal/AIShooter/Content/Developers/Anurag/Collections/' was aborted.
+[2017.04.03-22.11.42:823][997]LogDirectoryWatcher: A directory notification for 'D:/cs524/unreal/AIShooter/Saved/Collections/' was aborted.
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.03-22.11.42:823][997]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.03-22.11.42:824][997]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.03-22.11.43:136][997]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.03-22.11.43:179][997]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.03-22.11.43:185][997]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.03-22.11.43:185][997]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.03-22.11.43:186][997]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.03-22.11.43:187][997]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.03-22.11.43:187][997]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.03-22.11.43:187][997]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.03-22.11.43:187][997]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.03-22.11.43:187][997]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.03-22.11.43:187][997]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.03-22.11.43:189][997]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.03-22.11.43:191][997]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.03-22.11.43:191][997]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.03-22.11.43:191][997]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.03-22.11.43:191][997]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.03-22.11.43:192][997]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.03-22.11.43:192][997]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.03-22.11.43:192][997]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.03-22.11.43:192][997]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.03-22.11.43:292][997]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.03-22.11.43:392][997]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.03-22.11.43:393][997]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.03-22.11.43:395][997]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.03-22.11.43:395][997]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.03-22.11.43:395][997]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.03-22.11.43:395][997]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.03-22.11.43:395][997]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.03-22.11.43:395][997]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.03-22.11.43:612][997]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.03-22.11.43:612][997]LogDirectoryWatcher: A directory notification for 'D:/cs524/unreal/AIShooter/Content/' was aborted.
+[2017.04.03-22.11.43:612][997]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.03-22.11.43:612][997]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.03-22.11.43:687][997]LogDerivedDataCache: Shutdown
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.03-22.11.43:687][997]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.03-22.11.43:688][997]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.03-22.11.43:688][997]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.03-22.11.43:688][997]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.03-22.11.43:688][997]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC7308017-4983-6916-C0C4-EC81424016DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3fdbdf464cf35faefd6b259c8abe7caf%7Cb38037d142644fa592759415df0780b6%7C277dcc68-e87c-4983-ab23-8a31608a34c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.03-22.11.43:695][997]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.03-22.11.43:696][997]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.03-22.11.43:696][997]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.03-22.11.43:697][997]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.03-22.11.43:697][997]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.03-22.11.43:697][997]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.03-22.11.43:698][997]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.03-22.11.43:700][997]LogExit: Exiting.
+[2017.04.03-22.11.43:701][997]Log file closed, 04/03/17 15:11:43

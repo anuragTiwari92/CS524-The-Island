@@ -1,0 +1,1108 @@
+﻿Log file open, 04/03/17 13:31:21
+LogInit:Display: Running engine for game: AIShooter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1661413261) SRandInit(1661413261).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077340
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.03-20.31.22:910][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.03-20.31.22:910][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.03-20.31.22:919][  0]LogInit: Computer: ANURAGTIWARI
+[2017.04.03-20.31.22:919][  0]LogInit: User: Anurag
+[2017.04.03-20.31.22:919][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.03-20.31.22:919][  0]LogInit: High frequency timer resolution =2.533205 MHz
+[2017.04.03-20.31.22:919][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.04.03-20.31.22:919][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.03-20.31.22:919][  0]LogMemory: Process Physical Memory: 263.37 MB used, 263.37 MB peak
+[2017.04.03-20.31.22:919][  0]LogMemory: Process Virtual Memory: 262.77 MB used, 262.77 MB peak
+[2017.04.03-20.31.22:919][  0]LogMemory: Physical Memory: 8341.93 MB used,  7991.25 MB free, 16333.18 MB total
+[2017.04.03-20.31.22:919][  0]LogMemory: Virtual Memory: 630.96 MB used,  7991.25 MB free, 134217728.00 MB total
+[2017.04.03-20.31.23:010][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.03-20.31.23:601][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.03-20.31.24:146][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
+[2017.04.03-20.31.24:146][  0]LogD3D11RHI:       2016/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.03-20.31.24:147][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.03-20.31.24:147][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.03-20.31.24:147][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.03-20.31.24:152][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.03-20.31.24:152][  0]LogD3D11RHI:     GPU DeviceId: 0x13d9 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.03-20.31.24:152][  0]LogWindows: EnumDisplayDevices:
+[2017.04.03-20.31.24:152][  0]LogWindows:    0. 'NVIDIA GeForce GTX 965M' (P:1 D:1)
+[2017.04.03-20.31.24:153][  0]LogWindows:    1. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.04.03-20.31.24:153][  0]LogWindows:    2. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.04.03-20.31.24:153][  0]LogWindows:    3. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.04.03-20.31.24:153][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.03-20.31.24:153][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
+[2017.04.03-20.31.24:153][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.03-20.31.24:153][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.03-20.31.24:153][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.03-20.31.24:664][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.03-20.31.24:694][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.03-20.31.24:736][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (D:/cs524/unreal/AIShooter/Intermediate/Shaders/WorkingDirectory/3484/).
+[2017.04.03-20.31.24:736][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Anurag/AppData/Local/Temp/UnrealShaderWorkingDir/58445B9F4B08ADF241015CB816234E9B/'.
+[2017.04.03-20.31.24:736][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.03-20.31.25:983][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.03-20.31.26:043][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.03-20.31.26:103][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.03-20.31.26:163][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.03-20.31.26:224][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.03-20.31.26:285][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.03-20.31.26:346][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.03-20.31.26:408][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.03-20.31.26:460][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.03-20.31.26:520][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.03-20.31.26:580][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.03-20.31.26:638][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.03-20.31.26:699][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.03-20.31.26:758][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.03-20.31.26:817][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.03-20.31.26:935][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.03-20.31.26:935][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.03-20.31.26:978][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.03-20.31.27:086][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.03-20.31.27:124][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.03-20.31.27:183][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.03-20.31.27:242][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.03-20.31.27:301][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.03-20.31.27:360][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.03-20.31.27:360][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.03-20.31.27:874][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.03-20.31.27:926][  0]LogDerivedDataCache: Loaded boot cache 0.05s 60MB C:/Users/Anurag/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.03-20.31.27:926][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Anurag/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.03-20.31.27:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/cs524/unreal/AIShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.03-20.31.27:926][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.03-20.31.27:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/cs524/unreal/AIShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.03-20.31.27:926][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.03-20.31.27:944][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.03-20.31.27:955][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anurag/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.03-20.31.27:965][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.03-20.31.27:965][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.03-20.31.27:965][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.03-20.31.28:228][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.03-20.31.28:230][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.03-20.31.28:460][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.03-20.31.28:509][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.03-20.31.28:562][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.03-20.31.28:562][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.03-20.31.28:562][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.03-20.31.29:091][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: aishooter, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1405085539
+[2017.04.03-20.31.29:141][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.04.03-20.31.29:194][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022275 seconds
+[2017.04.03-20.31.29:199][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.03-20.31.29:199][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.03-20.31.29:199][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.03-20.31.29:271][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.03-20.31.31:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.03-20.31.31:046][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.03-20.31.31:542][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.03-20.31.31:954][  0]SourceControl: Info Source control is disabled
+[2017.04.03-20.31.31:955][  0]SourceControl: Info Source control is disabled
+[2017.04.03-20.31.32:007][  0]SourceControl: Info Source control is disabled
+[2017.04.03-20.31.32:061][  0]SourceControl: Info Source control is disabled
+[2017.04.03-20.31.33:456][  0]LogEngine: Initializing Engine...
+[2017.04.03-20.31.33:457][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.03-20.31.33:698][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.03-20.31.33:705][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-20.31.33:717][  0]LogInit: FAudioDevice initialized.
+[2017.04.03-20.31.33:741][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Anurag/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.03-20.31.33:746][  0]LogInit: Texture streaming: Enabled
+[2017.04.03-20.31.33:856][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.03-20.31.33:954][  0]LogInit: Transaction tracking system initialized
+[2017.04.03-20.31.34:350][  0]BlueprintLog: New page: Editor Load
+[2017.04.03-20.31.35:348][  0]LocalizationService: Info Localization service is disabled
+[2017.04.03-20.31.36:097][  0]LogConsoleResponse:Display: 
+[2017.04.03-20.31.36:223][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.03-20.31.36:223][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.03-20.31.37:339][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Content/' took 0.01s
+[2017.04.03-20.31.37:388][  0]SourceControl: Info Source control is disabled
+[2017.04.03-20.31.37:388][  0]Cmd: MAP LOAD FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.03-20.31.37:388][  0]LightingResults: New page: Lighting Build
+[2017.04.03-20.31.37:436][  0]MapCheck: New page: Map Check
+[2017.04.03-20.31.37:436][  0]LightingResults: New page: Lighting Build
+[2017.04.03-20.31.37:904][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-20.31.37:929][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.03-20.31.37:930][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.03-20.31.37:971][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.964ms to complete.
+[2017.04.03-20.31.37:971][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.583
+[2017.04.03-20.31.38:024][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.03-20.31.38:141][  0]LogCollectionManager: Loaded 0 collections in 0.001698 seconds
+[2017.04.03-20.31.38:223][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Saved/Collections/' took 0.01s
+[2017.04.03-20.31.38:223][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Content/Developers/Anurag/Collections/' took 0.01s
+[2017.04.03-20.31.38:223][  0]LogFileCache: Scanning file cache for directory 'D:/cs524/unreal/AIShooter/Content/Collections/' took 0.01s
+[2017.04.03-20.31.38:223][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.03-20.31.38:232][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2245 classes and 453 folders.
+[2017.04.03-20.31.38:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.03-20.31.38:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.03-20.31.38:310][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.03-20.31.38:349][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.03-20.31.38:398][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.03-20.31.38:450][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.03-20.31.38:456][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.03-20.31.38:527][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.03-20.31.38:528][  0]LogLoad: (Engine Initialization) Total time: 17.56 seconds
+[2017.04.03-20.31.38:528][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.04.03-20.31.38:528][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.03-20.31.38:528][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.03-20.31.38:545][  0]LogOcInput: OculusInput pre-init called
+[2017.04.03-20.31.38:565][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.03-20.31.38:566][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.03-20.31.38:570][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.03-20.31.38:575][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.03-20.31.38:690][  0]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.03-20.31.38:759][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.03-20.31.38:801][  1]LogAssetRegistry: Asset discovery search completed in 9.6824 seconds
+[2017.04.03-20.31.38:801][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.03-20.31.38:801][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.04.03-20.31.39:556][ 40]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-20.31.42:978][245]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-20.31.45:768][408]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.03-20.34.25:258][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree.uasset" SILENT=true
+[2017.04.03-20.34.25:267][884]LogSavePackage: Save=6.63ms
+[2017.04.03-20.34.25:267][884]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AICharacter_BehaviorTree912EBD9B4D521DD2086493ACD7100112.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree.uasset'
+[2017.04.03-20.34.25:268][884]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree.uasset
+[2017.04.03-20.34.26:909][983]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-20.34.26:918][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.34.26:925][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-20.34.26:926][983]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 6:34:26 AM)
+[2017.04.03-20.34.26:926][983]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-20.34.26:952][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026316s)
+[2017.04.03-20.34.26:953][983]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-20.34.26:953][983]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2017.04.03-20.34.26:954][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027918s)
+[2017.04.03-20.34.26:976][983]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-20.34.26:986][983]LogInit: FAudioDevice initialized.
+[2017.04.03-20.34.27:067][983]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-20.34.27:071][983]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-13.34.27
+[2017.04.03-20.34.27:071][983]LogWorld: Bringing up level for play took: 0.002994
+[2017.04.03-20.34.27:118][983]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.04.03-20.34.27:120][983]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.245
+[2017.04.03-20.34.27:120][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.34.50:227][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.34.50:272][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.35.40:936][903]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.04.03-20.36.45:918][678]LogSlate: Took 0.029702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.03-20.37.16:592][636]LogSlate: Took 0.046078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.03-20.37.47:336][832]BlueprintLog: New page: Compile BTT_Attack
+[2017.04.03-20.37.47:890][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AICharacter/BTT_Attack" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset" SILENT=true
+[2017.04.03-20.37.47:930][858]LogSavePackage: Save=37.04ms
+[2017.04.03-20.37.47:930][858]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/BTT_Attack64D8B0CF4354BD71D686BA92519EAEAD.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset'
+[2017.04.03-20.37.47:931][858]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset
+[2017.04.03-20.42.19:443][118]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2017.04.03-20.42.19:444][118]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree] ([1] browsable assets)...
+[2017.04.03-20.42.19:444][118]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree]
+[2017.04.03-20.42.19:453][118]LogSavePackage: Save=6.40ms
+[2017.04.03-20.42.19:453][118]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AICharacter_BehaviorTree_Auto14A83F08D4E0E4C000B68A187EF0033DD.tmp' to 'D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree_Auto1.uasset'
+[2017.04.03-20.42.19:453][118]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree_Auto1.uasset
+[2017.04.03-20.42.19:454][118]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/AICharacter/BTT_Attack] ([1] browsable assets)...
+[2017.04.03-20.42.19:454][118]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/AICharacter/BTT_Attack]
+[2017.04.03-20.42.19:462][118]LogSavePackage: Save=6.45ms
+[2017.04.03-20.42.19:462][118]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/BTT_Attack_Auto18AF20E254448209AB0E7EA9DCD705036.tmp' to 'D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/AICharacter/BTT_Attack_Auto1.uasset'
+[2017.04.03-20.42.19:462][118]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/AICharacter/BTT_Attack_Auto1.uasset
+[2017.04.03-20.42.19:462][118]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.04.03-20.42.20:353][172]BlueprintLog: New page: Compile BTT_Attack
+[2017.04.03-20.42.21:285][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AICharacter/BTT_Attack" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset" SILENT=true
+[2017.04.03-20.42.21:309][222]LogSavePackage: Save=22.25ms
+[2017.04.03-20.42.21:309][222]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/BTT_Attack6D18839F40A26B55B5AE388A80C2BE3F.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset'
+[2017.04.03-20.42.21:310][222]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset
+[2017.04.03-20.45.17:642][918]LogClass:Warning: Type mismatch in count of SKEL_BTT_Attack_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.04.03-20.52.58:859][956]BlueprintLog: New page: Compile BTT_Attack
+[2017.04.03-20.52.59:669][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AICharacter/BTT_Attack" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset" SILENT=true
+[2017.04.03-20.52.59:681][997]LogSavePackage: Save=10.95ms
+[2017.04.03-20.52.59:681][997]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/BTT_AttackE505077F4351CF022619408CB277B120.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset'
+[2017.04.03-20.52.59:682][997]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset
+[2017.04.03-20.53.01:981][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree.uasset" SILENT=true
+[2017.04.03-20.53.02:039][134]LogSavePackage: Save=17.07ms
+[2017.04.03-20.53.02:039][134]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AICharacter_BehaviorTreeC8AB268E46566508EAE4FBAB3903453E.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree.uasset'
+[2017.04.03-20.53.02:040][134]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/AICharacter_BehaviorTree.uasset
+[2017.04.03-20.53.04:415][277]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-20.53.04:424][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.53.04:431][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-20.53.04:431][277]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 6:53:04 AM)
+[2017.04.03-20.53.04:432][277]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-20.53.04:453][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021630s)
+[2017.04.03-20.53.04:454][277]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-20.53.04:454][277]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.04.03-20.53.04:455][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023081s)
+[2017.04.03-20.53.04:474][277]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-20.53.04:483][277]LogInit: FAudioDevice initialized.
+[2017.04.03-20.53.04:512][277]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-20.53.04:515][277]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-13.53.04
+[2017.04.03-20.53.04:515][277]LogWorld: Bringing up level for play took: 0.002697
+[2017.04.03-20.53.04:517][277]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.358
+[2017.04.03-20.53.04:517][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.53.26:623][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.53.26:662][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.54.53:681][332]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2017.04.03-20.54.53:682][332]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/AICharacter/BTT_Attack] ([1] browsable assets)...
+[2017.04.03-20.54.53:682][332]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/AICharacter/BTT_Attack]
+[2017.04.03-20.54.53:698][332]LogSavePackage: Save=14.26ms
+[2017.04.03-20.54.53:698][332]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/BTT_Attack_Auto274CE1D834ADB098DD716E0A0DC538C67.tmp' to 'D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/AICharacter/BTT_Attack_Auto2.uasset'
+[2017.04.03-20.54.53:699][332]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/AICharacter/BTT_Attack_Auto2.uasset
+[2017.04.03-20.54.53:699][332]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.04.03-20.57.39:734][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/CharacterBase" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset" SILENT=true
+[2017.04.03-20.57.39:752][597]LogSavePackage: Save=15.87ms
+[2017.04.03-20.57.39:752][597]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/CharacterBase1CB8C544499FA263DCC9ADA40BE96730.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset'
+[2017.04.03-20.57.39:753][597]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/CharacterBase.uasset
+[2017.04.03-20.57.40:345][632]BlueprintLog: New page: Compile CharacterBase
+[2017.04.03-20.57.51:596][926]BlueprintLog: New page: Compile BTT_Attack
+[2017.04.03-20.57.52:201][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/AICharacter/BTT_Attack" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset" SILENT=true
+[2017.04.03-20.57.52:216][955]LogSavePackage: Save=12.92ms
+[2017.04.03-20.57.52:216][955]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/BTT_Attack74B9F8714C4BDA2B6D9183A089F853FA.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset'
+[2017.04.03-20.57.52:217][955]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/AICharacter/BTT_Attack.uasset
+[2017.04.03-20.57.54:125][ 60]LogSavePackage: Save=126.59ms
+[2017.04.03-20.57.54:125][ 60]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap2096F3814CD8AAC0D4C225A00353F1A1.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-20.57.54:127][ 60]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-20.57.54:141][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-20.57.54:415][ 60]LogSavePackage: Save=176.24ms
+[2017.04.03-20.57.54:415][ 60]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData2542109040118D233E734D88BB0719A7.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-20.57.54:416][ 60]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-20.57.55:876][148]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-20.57.55:884][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.57.55:891][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-20.57.55:891][148]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 6:57:55 AM)
+[2017.04.03-20.57.55:891][148]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-20.57.55:911][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019483s)
+[2017.04.03-20.57.55:911][148]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-20.57.55:912][148]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2017.04.03-20.57.55:912][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020505s)
+[2017.04.03-20.57.55:933][148]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-20.57.55:942][148]LogInit: FAudioDevice initialized.
+[2017.04.03-20.57.55:972][148]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-20.57.55:975][148]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-13.57.55
+[2017.04.03-20.57.55:975][148]LogWorld: Bringing up level for play took: 0.002642
+[2017.04.03-20.57.55:977][148]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.897
+[2017.04.03-20.57.55:977][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.58.00:041][388]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.02:005][506]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.04:006][626]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.06:005][746]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.08:006][866]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.10:006][986]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.12:006][106]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.14:006][226]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.16:006][346]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.18:006][466]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.21:606][682]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-20.58.23:540][798]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-20.58.23:584][798]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.00.19:748][565]LogRenderer: Reallocating scene render targets to support 1212x712 NumSamples 1 (Frame:8127).
+[2017.04.03-21.00.34:396][335]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Mixamo_Heraklios_Skeleton, removing AnimBP from actor.
+[2017.04.03-21.00.34:439][335]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Mixamo_Heraklios_Skeleton, removing AnimBP from actor.
+[2017.04.03-21.00.34:439][335]LogAnimation:Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton Mixamo_Heraklios_Skeleton, removing AnimBP from actor.
+[2017.04.03-21.00.46:099][ 29]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-21.00.46:332][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:346][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:365][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:422][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:422][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:422][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:422][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:422][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_0.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:444][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:444][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:444][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:444][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:444][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_1.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:469][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:469][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:469][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:469][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:469][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EdGraph_2.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:584][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:585][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:586][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Anims/MixamoAnimBP_Heraklios.MixamoAnimBP_Heraklios:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:675][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.46:676][ 29]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.00.50:185][236]BlueprintLog: New page: Compile AICharacter
+[2017.04.03-21.00.51:130][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/AICharacter" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter.uasset" SILENT=true
+[2017.04.03-21.00.51:151][264]LogSavePackage: Save=18.96ms
+[2017.04.03-21.00.51:151][264]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AICharacter48DB54CF4F07E4E3C51FC79B77BFD065.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter.uasset'
+[2017.04.03-21.00.51:152][264]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter.uasset
+[2017.04.03-21.00.54:452][460]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.00.54:465][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.00.54:472][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.00.54:472][460]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:00:54 AM)
+[2017.04.03-21.00.54:472][460]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.00.54:493][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020717s)
+[2017.04.03-21.00.54:493][460]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.00.54:494][460]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.04.03-21.00.54:494][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021802s)
+[2017.04.03-21.00.54:516][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.00.54:524][460]LogInit: FAudioDevice initialized.
+[2017.04.03-21.00.54:557][460]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.00.54:561][460]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.00.54
+[2017.04.03-21.00.54:561][460]LogWorld: Bringing up level for play took: 0.003030
+[2017.04.03-21.00.54:563][460]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.311
+[2017.04.03-21.00.54:563][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.00.58:482][687]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.01.00:482][807]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.01.02:482][927]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.01.04:482][ 47]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.01.06:482][167]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.01.08:482][287]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.01.09:783][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.01.09:883][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.02.11:394][190]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.04.03-21.02.18:081][567]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.03-21.02.18:423][567]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.03-21.02.18:530][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.03-21.02.18:844][567]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.04.03-21.03.04:116][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.04.03-21.03.04:174][259]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.04.03-21.03.04:406][260]LogRenderer: Reallocating scene render targets to support 1212x888 NumSamples 1 (Frame:15632).
+[2017.04.03-21.03.06:101][347]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.04.03-21.03.06:134][347]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.04.03-21.05.23:501][660]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.03-21.05.25:720][787]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_0.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.05.25:720][787]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:EdGraph_0.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.05.25:722][787]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:UserConstructionScript.K2Node_CallParentFunction_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.05.25:722][787]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Heraklios/Mixamo_Heraklios.Mixamo_Heraklios:UserConstructionScript.K2Node_FunctionEntry_768' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.03-21.06.03:120][974]LogContentBrowser:Verbose: The majority of assets in the view are of type: Texture2D
+[2017.04.03-21.06.05:998][142]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.03-21.08.37:810][834]LogSavePackage: Save=140.23ms
+[2017.04.03-21.08.37:810][834]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_Auto3CC12BCF341854B4650AE6C9F3C01B2E5.tmp' to 'D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2017.04.03-21.08.37:818][834]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2017.04.03-21.08.37:819][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.232
+[2017.04.03-21.08.37:819][834]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.232
+[2017.04.03-21.09.07:281][775]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-21.09.32:935][311]BlueprintLog: New page: Compile AICharacter
+[2017.04.03-21.09.51:698][423]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.03-21.11.12:950][472]Cmd: TRANSACTION UNDO
+[2017.04.03-21.11.12:950][472]LogEditorTransaction: Undo Edit Anim Class
+[2017.04.03-21.11.12:974][472]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_2.Arrow) Component already registered.
+[2017.04.03-21.11.12:974][472]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AICharacter_2.CharMoveComp) Component already registered.
+[2017.04.03-21.11.12:974][472]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.AICharacter_C_0.Arrow) Component already registered.
+[2017.04.03-21.11.13:200][484]Cmd: TRANSACTION UNDO
+[2017.04.03-21.11.13:200][484]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2017.04.03-21.11.19:136][838]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.11.19:144][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.11.19:151][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.11.19:151][838]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:11:19 AM)
+[2017.04.03-21.11.19:152][838]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.11.19:172][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020455s)
+[2017.04.03-21.11.19:173][838]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.11.19:173][838]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.04.03-21.11.19:173][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021714s)
+[2017.04.03-21.11.19:202][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.11.19:212][838]LogInit: FAudioDevice initialized.
+[2017.04.03-21.11.19:241][838]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.11.19:245][838]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.11.19
+[2017.04.03-21.11.19:245][838]LogWorld: Bringing up level for play took: 0.002682
+[2017.04.03-21.11.19:247][838]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.373
+[2017.04.03-21.11.19:247][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.11.28:800][409]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.11.31:333][561]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.11.33:333][681]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.11.43:850][312]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ouch!
+[2017.04.03-21.11.44:884][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.11.44:986][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.11.46:445][441]LogSavePackage: Save=166.98ms
+[2017.04.03-21.11.46:445][441]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap337EF9BB460C6E0D95D62CB19F7CEBC2.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.11.46:447][441]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.11.46:462][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.11.46:579][441]LogSavePackage: Save=113.28ms
+[2017.04.03-21.11.46:579][441]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData23949429491495B4B78D7D9709CCCE36.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.11.46:580][441]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.13.41:926][818]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AnimStarterPack/Ue4ASP_Character.
+[2017.04.03-21.13.41:930][818]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.
+[2017.04.03-21.14.15:224][108]LogContentBrowser:Verbose: The majority of assets in the view are of type: Class
+[2017.04.03-21.14.20:729][330]LogSavePackage: Save=132.14ms
+[2017.04.03-21.14.20:729][330]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap753AE9884A5913039307B8870C8408B0.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.14.20:730][330]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.14.20:745][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.14.20:876][330]LogSavePackage: Save=129.40ms
+[2017.04.03-21.14.20:876][330]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltDataFD02B3104A20D54E704EB0B75BF9E259.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.14.20:877][330]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.14.26:437][663]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.04.03-21.14.54:885][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.14.54:888][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [2613.92] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 21 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.04.03-21.14.54:889][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [2613.92] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.04.03-21.14.54:891][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [2613.93] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 1 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.04.03-21.14.54:934][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.14.54:937][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [2613.97] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 11 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.04.03-21.14.54:937][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [2613.97] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.04.03-21.14.54:938][ 61]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [2613.97] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 1 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.04.03-21.14.54:957][ 61]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2017.04.03-21.14.55:331][ 61]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.04.03-21.14.55:351][ 61]LogTemp:Display: Added material ShaderMap 0x000001CDC9ECAE80 with Material 0x000001CDF78D7580 to ShaderMapsBeingCompiled
+[2017.04.03-21.14.55:489][ 61]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001CDC9ECAE80
+[2017.04.03-21.14.55:506][ 61]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.04.03-21.14.55:508][ 61]LogTemp:Display: Added material ShaderMap 0x000001CDC85D6E80 with Material 0x000001CDB5C35F00 to ShaderMapsBeingCompiled
+[2017.04.03-21.14.55:586][ 61]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001CDC85D6E80
+[2017.04.03-21.15.04:489][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.04.03-21.15.04:673][401]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.04.03-21.15.04:890][401]LogTemp:Display: Finished compile of shader map 0x000001CDC9ECAE80
+[2017.04.03-21.15.04:890][401]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001CDC9ECAE80, marking material M_UE4Man_Body as finished
+[2017.04.03-21.15.04:890][401]LogTemp:Display: Marking material as finished 0x000001CDF78D7580
+[2017.04.03-21.15.10:969][563]LogTemp:Display: Finished compile of shader map 0x000001CDC85D6E80
+[2017.04.03-21.15.10:969][563]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001CDC85D6E80, marking material M_UE4Man_Body as finished
+[2017.04.03-21.15.10:969][563]LogTemp:Display: Marking material as finished 0x000001CDB5C35F00
+[2017.04.03-21.16.08:570][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:570][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:570][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:PlayerCamera' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:CameraBoom' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:Jump Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.Ue4ASP_Character_C:Crouch Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:Crouch Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:Jump Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:CameraBoom' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:PlayerCamera' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:571][ 49]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.SKEL_Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.16.08:606][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/Ue4ASP_Character.uasset" SILENT=true
+[2017.04.03-21.16.08:645][ 49]LogSavePackage: Save=38.54ms
+[2017.04.03-21.16.08:645][ 49]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/Ue4ASP_Character37BED34E4E8BE8A7418E54BD0DF17B2B.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/Ue4ASP_Character.uasset'
+[2017.04.03-21.16.08:646][ 49]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/Ue4ASP_Character.uasset
+[2017.04.03-21.16.08:795][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="D:/cs524/unreal/AIShooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2017.04.03-21.16.08:860][ 49]LogSavePackage: Save=61.65ms
+[2017.04.03-21.16.08:860][ 49]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/UE4ASP_HeroTPP_AnimBlueprintAC34F8CB43225F5978EFFBB824981F0D.tmp' to 'D:/cs524/unreal/AIShooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2017.04.03-21.16.08:861][ 49]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2017.04.03-21.16.08:994][ 53]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.
+[2017.04.03-21.16.10:286][130]LogContentBrowser:Verbose: The majority of assets in the view are of type: Blueprint
+[2017.04.03-21.16.49:205][769]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.03-21.16.59:500][351]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AICharacter_Old.AICharacter_Old_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AICharacter.PackageMetaData'
+[2017.04.03-21.16.59:500][351]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AICharacter_Old.SKEL_AICharacter_Old_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AICharacter.PackageMetaData'
+[2017.04.03-21.16.59:552][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/AICharacter_Old" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter_Old.uasset" SILENT=true
+[2017.04.03-21.16.59:572][351]LogSavePackage: Save=19.40ms
+[2017.04.03-21.16.59:572][351]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AICharacter_Old95F70C4143FBD11DE4567AB69B31F1C2.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter_Old.uasset'
+[2017.04.03-21.16.59:573][351]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter_Old.uasset
+[2017.04.03-21.16.59:576][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/AICharacter" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter.uasset" SILENT=true
+[2017.04.03-21.16.59:626][351]LogSavePackage: Save=48.13ms
+[2017.04.03-21.16.59:627][351]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AICharacter4A610CCA4D192E060B713787AFD3BD25.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter.uasset'
+[2017.04.03-21.16.59:627][351]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AICharacter.uasset
+[2017.04.03-21.16.59:705][352]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/AICharacter_Old.
+[2017.04.03-21.17.17:845][932]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old.ThirdPersonCharacter_Old_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2017.04.03-21.17.17:846][932]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old.SKEL_ThirdPersonCharacter_Old_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2017.04.03-21.17.17:896][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old.uasset" SILENT=true
+[2017.04.03-21.17.17:936][932]LogSavePackage: Save=39.55ms
+[2017.04.03-21.17.17:936][932]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonCharacter_OldFF254C114FCBD7B4F6B0D3A641E30813.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old.uasset'
+[2017.04.03-21.17.17:937][932]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old.uasset
+[2017.04.03-21.17.17:940][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.04.03-21.17.17:986][932]LogSavePackage: Save=7.01ms
+[2017.04.03-21.17.17:986][932]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonCharacter0697F51440381DCC4498FE83B813806F.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.04.03-21.17.17:987][932]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.04.03-21.17.18:045][934]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old.
+[2017.04.03-21.17.53:814][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.17.53:819][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2792.85] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 15 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.53:820][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2792.85] Compile of PlayerShooter_Character successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.53:820][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2792.85] Compile of PlayerShooter_Character successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.54:097][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2793.13] Compile of PlayerShooter_Character successful, but with 4 Warning(s) [in 276 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.54:116][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2793.15] Compile of PlayerShooter_Character successful, but with 5 Warning(s) [in 19 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.54:118][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2793.15] Compile of PlayerShooter_Character successful, but with 6 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.54:118][918]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2793.15] Compile of PlayerShooter_Character successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.17.54:269][918]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.17.54:269][918]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.SKEL_PlayerShooter_Character_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ue4ASP_Character.PackageMetaData'
+[2017.04.03-21.17.54:320][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset" SILENT=true
+[2017.04.03-21.17.54:358][918]LogSavePackage: Save=37.63ms
+[2017.04.03-21.17.54:358][918]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/PlayerShooter_Character44EB37874C107BEA3A9416AC6E459075.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset'
+[2017.04.03-21.17.54:359][918]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset
+[2017.04.03-21.17.54:475][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint" FILE="D:/cs524/unreal/AIShooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" SILENT=true
+[2017.04.03-21.17.54:529][918]LogSavePackage: Save=52.23ms
+[2017.04.03-21.17.54:529][918]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/UE4ASP_HeroTPP_AnimBlueprintA291BF68495593489E834BB1CB3887E6.tmp' to 'D:/cs524/unreal/AIShooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2017.04.03-21.17.54:530][918]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2017.04.03-21.17.54:571][919]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.
+[2017.04.03-21.18.25:796][462]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-21.18.49:406][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2017.04.03-21.18.49:415][301]LogSavePackage: Save=6.57ms
+[2017.04.03-21.18.49:415][301]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonGameMode9544C1274AA34738C0123B9E6CF2D362.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2017.04.03-21.18.49:416][301]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.04.03-21.18.49:973][335]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2017.04.03-21.19.41:964][ 24]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-21.19.46:306][283]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character from Character to CharacterBase_C...
+[2017.04.03-21.19.46:324][283]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.19.46:340][283]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.46:387][283]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.46:848][283]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.46:909][283]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2905.94] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 585 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.19.55:870][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset" SILENT=true
+[2017.04.03-21.19.55:909][396]LogSavePackage: Save=36.17ms
+[2017.04.03-21.19.55:909][396]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/PlayerShooter_CharacterA32B6EA047D847010E8292BA1D8FB040.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset'
+[2017.04.03-21.19.55:910][396]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset
+[2017.04.03-21.19.56:669][442]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.19.56:684][442]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.56:731][442]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.56:948][442]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.56:948][442]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2915.98] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 278 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.19.58:064][508]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.19.58:080][508]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:126][508]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:340][508]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:340][508]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2917.37] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 276 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.19.58:489][516]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.19.58:504][516]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:550][516]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:766][516]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:766][516]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2917.80] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 276 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.19.58:767][516]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.19.58:782][516]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.58:827][516]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.59:041][516]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.19.59:041][516]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2918.08] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 274 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.19.59:424][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset" SILENT=true
+[2017.04.03-21.19.59:462][536]LogSavePackage: Save=36.20ms
+[2017.04.03-21.19.59:462][536]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/PlayerShooter_Character14A0B9BB4DB875EF5577468C56481860.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset'
+[2017.04.03-21.19.59:462][536]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset
+[2017.04.03-21.19.59:990][568]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.20.00:006][568]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.20.00:092][568]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.20.00:304][568]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.20.00:304][568]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [2919.34] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 313 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.20.35:944][493]LogEditorActor: Deleted Actor: ThirdPersonCharacter_Old_C
+[2017.04.03-21.20.35:961][493]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.04.03-21.20.44:396][987]LogSavePackage: Save=172.23ms
+[2017.04.03-21.20.44:396][987]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap88F404714782E8B2ABF5BA89ACE67E7F.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.20.44:398][987]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.20.44:414][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.20.44:546][987]LogSavePackage: Save=113.96ms
+[2017.04.03-21.20.44:546][987]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData365051E54347B36E813FF38B5DB57DA6.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.20.44:547][987]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.21.16:207][386]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.21.16:220][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.21.16:227][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.21.16:227][386]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:21:16 AM)
+[2017.04.03-21.21.16:227][386]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.21.16:244][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016896s)
+[2017.04.03-21.21.16:245][386]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.21.16:245][386]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2017.04.03-21.21.16:245][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018227s)
+[2017.04.03-21.21.16:267][386]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.21.16:276][386]LogInit: FAudioDevice initialized.
+[2017.04.03-21.21.16:304][386]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.21.16:307][386]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.21.16
+[2017.04.03-21.21.16:307][386]LogWorld: Bringing up level for play took: 0.002181
+[2017.04.03-21.21.16:384][386]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.49
+[2017.04.03-21.21.16:384][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.21.25:521][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.21.25:565][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.21.34:312][454]LogEditorActor: Deleted Actor: PlayerStart
+[2017.04.03-21.21.34:328][454]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.04.03-21.21.43:549][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.21.43:561][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.21.43:568][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.21.43:568][995]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:21:43 AM)
+[2017.04.03-21.21.43:568][995]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.21.43:585][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016451s)
+[2017.04.03-21.21.43:585][995]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.21.43:585][995]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.04.03-21.21.43:586][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017544s)
+[2017.04.03-21.21.43:607][995]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.21.43:615][995]LogInit: FAudioDevice initialized.
+[2017.04.03-21.21.43:643][995]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.21.43:645][995]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.21.43
+[2017.04.03-21.21.43:646][995]LogWorld: Bringing up level for play took: 0.002019
+[2017.04.03-21.21.43:648][995]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.774
+[2017.04.03-21.21.43:648][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.21.50:945][431]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.21.52:945][551]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.21.54:945][671]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.21.56:945][791]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.21.58:945][911]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.22.00:945][ 31]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.22.02:263][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.22.02:315][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.22.46:850][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.22.46:854][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3085.89] Compile of AIShooter_Character successful, but with 1 Warning(s) [in 14 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:872][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.22.46:877][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3085.91] Compile of AIShooter_Character successful, but with 1 Warning(s) [in 14 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:877][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3085.91] Compile of AIShooter_Character successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:877][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3085.91] Compile of AIShooter_Character successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:883][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.22.46:974][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3086.01] Compile of AIShooter_Character successful, but with 4 Warning(s) [in 96 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:975][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3086.01] Compile of AIShooter_Character successful, but with 5 Warning(s) [in 1 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:975][893]LogBlueprint:Warning: [Compiler AIShooter_Character] Warning [3086.01] Compile of AIShooter_Character successful, but with 6 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/AIShooter_Character.AIShooter_Character)
+[2017.04.03-21.22.46:986][893]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ThirdPersonBP/Blueprints/AIShooter_Character.
+[2017.04.03-21.23.27:031][631]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.03-21.23.39:344][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/AIShooter_Character" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset" SILENT=true
+[2017.04.03-21.23.39:365][348]LogSavePackage: Save=20.11ms
+[2017.04.03-21.23.39:365][348]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/AIShooter_Character29C1DE764A3583A4B5EC84BD21C6E95F.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset'
+[2017.04.03-21.23.39:365][348]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/AIShooter_Character.uasset
+[2017.04.03-21.23.39:389][350]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/AIShooter_Character.
+[2017.04.03-21.23.40:122][394]BlueprintLog: New page: Compile AIShooter_Character
+[2017.04.03-21.24.11:885][294]LogEditorActor: Deleted Actor: AICharacter_Old_C
+[2017.04.03-21.24.11:902][294]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.04.03-21.24.17:967][653]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.24.17:982][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.24.17:990][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.24.17:990][653]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:24:17 AM)
+[2017.04.03-21.24.17:990][653]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.24.18:007][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017343s)
+[2017.04.03-21.24.18:008][653]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.24.18:008][653]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2017.04.03-21.24.18:008][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018597s)
+[2017.04.03-21.24.18:033][653]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.24.18:042][653]LogInit: FAudioDevice initialized.
+[2017.04.03-21.24.18:072][653]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.24.18:074][653]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.24.18
+[2017.04.03-21.24.18:075][653]LogWorld: Bringing up level for play took: 0.002241
+[2017.04.03-21.24.18:077][653]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.797
+[2017.04.03-21.24.18:078][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.24.30:139][375]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.24.32:139][495]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.24.34:139][615]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.24.35:173][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.24.35:272][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.24.36:872][759]LogSavePackage: Save=135.94ms
+[2017.04.03-21.24.36:872][759]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap5E4D6F1E40B32CF3C3DCB6993C4D13F8.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.24.36:874][759]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.24.36:891][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.24.37:005][759]LogSavePackage: Save=112.12ms
+[2017.04.03-21.24.37:005][759]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData31413A1749052E37DCF1808F8799B618.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.24.37:006][759]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.25.40:737][113]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-21.25.41:720][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.03-21.25.41:833][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.03-21.25.43:443][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AICharacter_Old_C_0' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:443][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SceneComponent_0' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AICharacter_Old_C_1' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AICharacter_C_146' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AICharacter_Old_C_264' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AICharacter_Old_C_263' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BaseTurnRate' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BaseLookUpRate' or package '/Engine/Transient'.
+[2017.04.03-21.25.43:444][113]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AICharacter_Old_C_167' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ThirdPersonCharacter_Old_C_173' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ThirdPersonCharacter_Old_C_2' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SceneComponent_0' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArmComponent_0__A9892D03' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CameraComponent_0__CCE3C0B4' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ThirdPersonCharacter_Old_C_3' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputActionDelegateBinding_1' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:295][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputTouchDelegateBinding_1' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputAxisDelegateBinding_2' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpTchEvt_Released' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpTchEvt_Pressed' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Jump_K2Node_InputActionEvent_5' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Jump_K2Node_InputActionEvent_4' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_ResetVR_K2Node_InputActionEvent_3' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Turn_K2Node_InputAxisEvent_47' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_ThirdPersonCharacter_Old' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpTchEvt_Released' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpTchEvt_Pressed' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Jump_K2Node_InputActionEvent_5' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Jump_K2Node_InputActionEvent_4' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_ResetVR_K2Node_InputActionEvent_3' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Turn_K2Node_InputAxisEvent_47' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Old'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FollowCamera' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CameraBoom' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BaseTurnRate' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BaseLookUpRate' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ThirdPersonCharacter_Old_C_265' or package '/Engine/Transient'.
+[2017.04.03-21.25.47:296][233]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ThirdPersonCharacter_Old_C_266' or package '/Engine/Transient'.
+[2017.04.03-21.25.50:518][417]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.25.50:527][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.25.50:527][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.25.50:527][417]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:25:50 AM)
+[2017.04.03-21.25.50:527][417]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.25.50:544][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016863s)
+[2017.04.03-21.25.50:545][417]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.25.50:545][417]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.04.03-21.25.50:545][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018043s)
+[2017.04.03-21.25.50:566][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.25.50:574][417]LogInit: FAudioDevice initialized.
+[2017.04.03-21.25.50:605][417]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.25.50:608][417]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.25.50
+[2017.04.03-21.25.50:609][417]LogWorld: Bringing up level for play took: 0.002221
+[2017.04.03-21.25.50:611][417]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.263
+[2017.04.03-21.25.50:612][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.25.59:955][976]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.01:954][ 96]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.03:955][216]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.05:955][336]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.07:955][456]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.09:955][576]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.11:955][696]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.13:956][816]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.15:955][936]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.17:955][ 56]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.19:955][176]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.21:955][296]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.23:955][416]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.25:955][536]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.27:955][656]LogBlueprintUserMessages: [PlayerShooter_Character_C_0] Ouch!
+[2017.04.03-21.26.28:023][660]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.26.28:116][660]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.27.11:878][255]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.27.11:894][255]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.11:956][255]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.12:168][255]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.12:168][255]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [3351.20] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 290 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.27.13:386][316]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.27.13:402][316]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.13:463][316]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.13:669][316]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.13:669][316]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [3352.70] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 283 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.27.40:795][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset" SILENT=true
+[2017.04.03-21.27.40:834][935]LogSavePackage: Save=36.29ms
+[2017.04.03-21.27.40:834][935]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/PlayerShooter_CharacterF513AE984FC6BC804A974EA194BDD3F1.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset'
+[2017.04.03-21.27.40:835][935]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Blueprints/PlayerShooter_Character.uasset
+[2017.04.03-21.27.41:347][966]BlueprintLog: New page: Compile PlayerShooter_Character
+[2017.04.03-21.27.41:362][966]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.41:423][966]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.41:632][966]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.04.03-21.27.41:632][966]LogBlueprint:Warning: [Compiler PlayerShooter_Character] Warning [3380.67] Compile of PlayerShooter_Character successful, but with 1 Warning(s) [in 285 ms] (/Game/ThirdPersonBP/Blueprints/PlayerShooter_Character.PlayerShooter_Character)
+[2017.04.03-21.27.54:802][697]LogAnimation:Warning: AnimBP UE4ASP_HeroTPP_AnimBlueprint_C is incompatible with skeleton Maximo_Vampire_Skeleton, removing AnimBP from actor.
+[2017.04.03-21.28.00:239][  0]Cmd: TRANSACTION UNDO
+[2017.04.03-21.28.00:239][  0]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2017.04.03-21.28.05:769][296]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.28.05:780][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.05:780][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.28.05:780][296]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:28:05 AM)
+[2017.04.03-21.28.05:780][296]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.28.05:797][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017050s)
+[2017.04.03-21.28.05:798][296]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.28.05:798][296]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2017.04.03-21.28.05:798][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018230s)
+[2017.04.03-21.28.05:823][296]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.28.05:831][296]LogInit: FAudioDevice initialized.
+[2017.04.03-21.28.05:864][296]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.28.05:867][296]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.28.05
+[2017.04.03-21.28.05:868][296]LogWorld: Bringing up level for play took: 0.002455
+[2017.04.03-21.28.05:870][296]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.996
+[2017.04.03-21.28.05:870][296]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.11:448][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.11:541][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.12:943][700]LogSavePackage: Save=132.27ms
+[2017.04.03-21.28.12:943][700]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMapB6EC277143164410B15664B6A8494AA1.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.28.12:945][700]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.28.12:963][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.28.13:077][700]LogSavePackage: Save=110.49ms
+[2017.04.03-21.28.13:077][700]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltDataA95A22EB42A8ECE5E4FB5D80F32AA1BD.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.28.13:078][700]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.28.44:035][555]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.28.44:047][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.44:047][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.28.44:047][555]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:28:44 AM)
+[2017.04.03-21.28.44:047][555]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.28.44:063][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016566s)
+[2017.04.03-21.28.44:064][555]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.28.44:064][555]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2017.04.03-21.28.44:065][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017746s)
+[2017.04.03-21.28.44:087][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.28.44:095][555]LogInit: FAudioDevice initialized.
+[2017.04.03-21.28.44:127][555]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.28.44:130][555]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.28.44
+[2017.04.03-21.28.44:131][555]LogWorld: Bringing up level for play took: 0.002159
+[2017.04.03-21.28.44:133][555]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.742
+[2017.04.03-21.28.44:133][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.52:828][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.52:919][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.28.56:317][266]LogSavePackage: Save=131.71ms
+[2017.04.03-21.28.56:317][266]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMapAEC31EC24D02C46E56B0E994A6C51D18.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.28.56:319][266]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.28.56:335][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.28.56:448][266]LogSavePackage: Save=110.55ms
+[2017.04.03-21.28.56:448][266]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData926EEBC048420C7A48DAA2AB6C000B8C.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.28.56:448][266]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.29.25:507][  0]LogSavePackage: Save=130.94ms
+[2017.04.03-21.29.25:507][  0]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMapA7C1BF674EF6C540ED6B559A9D23583A.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.29.25:509][  0]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.29.25:525][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.29.25:639][  0]LogSavePackage: Save=112.10ms
+[2017.04.03-21.29.25:639][  0]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData515EA29A4FC7646925903383EEC14052.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.29.25:640][  0]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.29.26:718][ 65]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-21.29.26:728][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.29.26:728][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-21.29.26:728][ 65]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2017, 7:29:26 AM)
+[2017.04.03-21.29.26:728][ 65]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.03-21.29.26:745][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016288s)
+[2017.04.03-21.29.26:745][ 65]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.03-21.29.26:745][ 65]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.04.03-21.29.26:746][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017364s)
+[2017.04.03-21.29.26:769][ 65]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.03-21.29.26:778][ 65]LogInit: FAudioDevice initialized.
+[2017.04.03-21.29.26:808][ 65]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.03-21.29.26:812][ 65]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.03-14.29.26
+[2017.04.03-21.29.26:812][ 65]LogWorld: Bringing up level for play took: 0.002127
+[2017.04.03-21.29.26:815][ 65]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.06
+[2017.04.03-21.29.26:815][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.29.35:609][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.29.35:698][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.03-21.29.36:946][652]LogSavePackage: Save=147.14ms
+[2017.04.03-21.29.36:946][652]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap8D6C7F7D4FDA4DBA65137B91D46B5286.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.03-21.29.36:947][652]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.03-21.29.36:963][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.04.03-21.29.37:077][652]LogSavePackage: Save=111.69ms
+[2017.04.03-21.29.37:077][652]LogSavePackage: Moving 'D:/cs524/unreal/AIShooter/Saved/ThirdPersonExampleMap_BuiltData1D51BFD84938162C217BC3B29E7551D6.tmp' to 'D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.03-21.29.37:078][652]LogSavePackage:Display: Finished SavePackage D:/cs524/unreal/AIShooter/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.03-21.30.33:518][979]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.04.03-21.30.38:982][299]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.04.03-21.30.39:098][299]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.04.03-21.30.58:392][829]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.04.03-21.30.58:417][829]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.04.03-21.31.56:548][183]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.04.03-21.31.57:078][183]LogCrashTracker: 
+
+
+[2017.04.03-21.31.57:078][183]LogCrashTracker: 
+
+
+[2017.04.03-21.31.57:078][183]LogWindows:Error: === Critical error: ===
+[2017.04.03-21.31.57:078][183]LogWindows:Error: 
+[2017.04.03-21.31.57:078][183]LogWindows:Error: Assertion failed: Asset [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Toolkits\AssetEditorManager.cpp] [Line: 281] 
+[2017.04.03-21.31.57:078][183]LogWindows:Error: 
+[2017.04.03-21.31.57:078][183]LogWindows:Error: 
+[2017.04.03-21.31.57:078][183]LogWindows:Error: 
+[2017.04.03-21.31.57:078][183]LogWindows:Error: KERNELBASE.dll!0x00000000244B7788
+[2017.04.03-21.31.57:078][183]LogWindows:Error: UE4Editor-Core.dll!0x00000000E18E64EE
+[2017.04.03-21.31.57:078][183]LogWindows:Error: UE4Editor-Core.dll!0x00000000E170CEEE
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Core.dll!0x00000000E1692729
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000DC57E5F0
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000DC57EE35
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Persona.dll!0x00000000CA4D9161
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Persona.dll!0x00000000CA48EBCC
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Persona.dll!0x00000000CA4967CC
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000CD60CDDC
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000CD6CE754
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C02
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B9060
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7C08
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B778E
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD74D1AA
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B9060
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7C08
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B778E
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7ABE
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B9060
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7C08
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B9060
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7C08
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B9060
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7C08
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7ABE
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B9060
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B7C08
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B778E
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD7C8F52
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B778E
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD74CECC
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B778E
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B778E
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD74CECC
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8C55
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2821DE
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B930A
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000DD2B8D98
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD5930FD
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD59411C
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD5CCF94
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD5941C0
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD5F2674
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DD5F15C0
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor.exe!0x000000006DD4EA1D
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor.exe!0x000000006DD3EB40
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor.exe!0x000000006DD3EBBA
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor.exe!0x000000006DD50A29
+[2017.04.03-21.31.57:079][183]LogWindows:Error: UE4Editor.exe!0x000000006DD522B6
+[2017.04.03-21.31.57:079][183]LogWindows:Error: KERNEL32.DLL!0x0000000025BD8364
+[2017.04.03-21.31.57:079][183]LogWindows:Error: ntdll.dll!0x0000000027E570D1
+[2017.04.03-21.31.57:079][183]LogWindows:Error: ntdll.dll!0x0000000027E570D1
+[2017.04.03-21.31.57:079][183]LogWindows:Error: 
+[2017.04.03-21.31.57:099][183]LogExit: Executing StaticShutdownAfterError
+[2017.04.03-21.31.57:112][183]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.04.03-21.31.57:112][183]Log file closed, 04/03/17 14:31:57
